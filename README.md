@@ -2,7 +2,8 @@
 
 ## Requirements
 
-- Windows Terminal v0.11
+- Windows Terminal v1.0
+  - Windows Terminal currently requires Windows OS >= 1903 (build >= 10.0.18362.0)
 
 ## Instructions
 
