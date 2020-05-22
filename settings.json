@@ -65,7 +65,9 @@
                 "acrylicOpacity": 0.75,
                 "useAcrylic": true,
                 "startingDirectory" : "//wsl$/Ubuntu/home/toby",
-                "icon": "ms-appdata:///roaming/ubuntu-icon.png",
+                // In most intances, could use %USERPROFILE% instead of
+                // %HOMEDRIVE%%HOMEPATH%
+                "icon": "%HOMEDRIVE%%HOMEPATH%/git/wt/ubuntu-icon.png",
                 "colorScheme" : "Dracula",
                 "fontFace" : "FuraCode NF",
                 "fontSize": 10
