@@ -11,4 +11,5 @@
     (where %HOMEDRIVE%%HOMEPATH% usually is `C:\Users\{username}\`).
     This means that the icon images will be at the correct location for the
     values used on the settings.
-2. Copy `settings.json` to Windows Terminal settings and save.
+2. Install the font file using the system Font Settings
+3. Copy `settings.json` to Windows Terminal settings and save.
