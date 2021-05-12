@@ -73,7 +73,7 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
-            },
+            }
         ]
     },
 
