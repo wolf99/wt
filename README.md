@@ -7,7 +7,7 @@
 
 ## Instructions
 
-1. Clone directory into `%HOMEDRIVE%%HOMEPATH%\git\wt`
+1. Clone directory into `%HOMEDRIVE%%HOMEPATH%\wt`
     (where %HOMEDRIVE%%HOMEPATH% usually is `C:\Users\{username}\`).
     This means that the icon images will be at the correct location for the
     values used on the settings.
