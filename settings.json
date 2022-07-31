@@ -1,7 +1,12 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions":
     [
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
         {
             "command":
             {
@@ -9,10 +14,6 @@
                 "singleLine": false
             },
             "keys": "ctrl+c"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
         },
         {
             "command": "find",
@@ -35,8 +36,8 @@
     {
         "defaults":
         {
-            "acrylicOpacity": 0.5,
             "closeOnExit": "graceful",
+            "opacity": 50,
             "startingDirectory": "%USERPROFILE%",
             "useAcrylic": true
         },
@@ -59,7 +60,6 @@
                 "useAcrylic": true
             },
             {
-                "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
@@ -71,7 +71,6 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
@@ -81,6 +80,24 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "background": "#942E2E",
+                "colorScheme": "Campbell",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "cursorShape": "bar",
+                "elevate": true,
+                "font":
+                {
+                    "face": "Cascadia Mono",
+                    "size": 12
+                },
+                "guid": "{2de49a0a-b98b-47d7-b8d9-c2737087bbaa}",
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "Command Prompt (Admin)",
+                "snapOnInput": true
             }
         ]
     },
